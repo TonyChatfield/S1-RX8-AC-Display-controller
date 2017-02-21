@@ -1,0 +1,3 @@
+Beta 3.0
+Corrected acAmplifier serial (serial2) now 8E1 was 9N1
+Added 2 microSecond delay into switch matrix loop as improves stability, to be reviwed.
