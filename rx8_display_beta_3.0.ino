@@ -116,7 +116,7 @@ byte sevenSegmentArray[1][7] = {0};
 /**********************************************
 // User configurable
 **********************************************/
-String welcome = "Test Beta2.0"; // populate something into the text display - 12 Char max anything else is truncated.
+String welcome = "Test Beta3.0"; // populate something into the text display - 12 Char max anything else is truncated.
 
 
 void setup() {
