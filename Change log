@@ -1,4 +1,8 @@
 21-Feb-2017
 Beta 3.0
-Corrected acAmplifier serial (serial2) now 8E1 was 9N1
+Corrected acAmplifier serial (serial2) now 8E1, was 9N1
 Added 2 microSecond delay into switch matrix loop as improves stability, to be reviwed.
+
+11-Mar-2017
+Updated Center module\switch panel wiring diagram
+Left connector pin 12 incorrectly shown as GND. Updated to +5V (feed for control\state LED's).
