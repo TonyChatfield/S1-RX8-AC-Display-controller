@@ -377,7 +377,7 @@ void acAmpGetSerialData()
   // int icon98 = [08]; fan4, RPT, fan5, A\C, ECO
   // int icon99 = [09]; not used, Fan base, fan1, fan2, fan3
   // int icon9A = [10]; Auto-M, TP, TA, RDM, Full Stop between DDRAM #10 & #11
-  // int icon9B = [11]; not used, fan7, not used, R/H vertical divider, Full Stop between DDRAM #11 & #12
+  // int icon9B = [11]; not used, fan7, min/sec prime marks, R/H vertical divider, Full Stop between DDRAM #11 & #12
   // int icon9C = [12]; Seated Man, Front Demist, Down\Feet Arrow, not used, not used
   // int icon9D = [13]; not used, Temp Decimal, Face Arrow, fan6, mid display colon,
 *****************************************************************/
