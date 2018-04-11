@@ -158,7 +158,7 @@ void setup() {
 
 
   SPI.begin();
-  SPI.beginTransaction(SPISettings(10000000, MSBFIRST, SPI_MODE3)); //I couldn't see a defined max speed in the NJU6623 datasheet, 10Meg is quite an increase on the original 9600, so need to monitor incase this is not stable.
+  SPI.beginTransaction(SPISettings(1000000, MSBFIRST, SPI_MODE3)); //I couldn't see a defined max speed in the NJU6623 datasheet, 10Meg is quite an increase on the original 9600, so need to monitor incase this is not stable.
  // Serial.begin (115200, SERIAL_8N1);
   Serial2.begin (4800, SERIAL_8E1);
 
